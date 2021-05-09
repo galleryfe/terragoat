@@ -28,9 +28,4 @@ resource google_container_node_pool "custom_node_pool" {
   node_config {
     image_type = "Ubuntu"
   }
-  node_config {
-    shielded_instance_config {
-      enable_secure_boot = true
-    }
-  }
 }
